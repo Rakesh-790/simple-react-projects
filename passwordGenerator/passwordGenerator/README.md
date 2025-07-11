@@ -1,12 +1,27 @@
-# React + Vite
+# React Vite Hooks Playground 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built with **React** and **Vite** and serves as a learning playground to explore key React Hooks such as:
 
-Currently, two official plugins are available:
+- `useState`
+- `useEffect`
+- `useRef`
+- `useCallback`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is ideal for beginners or developers looking to refresh core React concepts in a modern, fast development environment.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Concepts Covered
+
+### 1. `useState`
+Manages local state in a functional component (e.g., toggles, form inputs, counters).
+
+### 2. `useEffect`
+Performs side effects in components (e.g., fetching data, timers, DOM updates).
+
+### 3. `useRef`
+Provides a way to reference DOM elements or persist values across renders without causing re-renders.
+
+### 4. `useCallback`
+Returns a memoized version of a callback function, useful for optimization and avoiding unnecessary re-renders when passing callbacks to child components.
+
